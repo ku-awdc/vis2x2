@@ -1,0 +1,19 @@
+---
+title: "vis2x2"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{vis2x2}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(vis2x2)
+```

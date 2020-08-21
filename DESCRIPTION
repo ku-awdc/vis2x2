@@ -1,0 +1,32 @@
+Package: vis2x2
+Title: Visualisation of Two by Two Tables for Diagnostic Test Evaluation
+Version: 0.1.0-1
+Authors@R: 
+    c(
+    person(given = "Matt",
+           family = "Denwood",
+           role = c("aut", "cre"),
+           email = "md@sund.ku.dk"),
+    person(given = "Paolo",
+           family = "Eusebi",
+           role = c("aut"),
+           email = "paoloeusebi@gmail.com")
+    )
+Description: What the package does (one paragraph).
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports:
+    tidyverse,
+    shiny,
+    plotly,
+    shinydashboard
+Suggests: 
+    testthat,
+    knitr,
+    rmarkdown,
+    spelling
+VignetteBuilder: knitr
+Language: en-GB
