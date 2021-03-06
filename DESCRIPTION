@@ -12,7 +12,7 @@ Authors@R:
            role = c("aut"),
            email = "paoloeusebi@gmail.com")
     )
-Description: What the package does (one paragraph).
+Description: Visualizations of two by two tables for diagnostic test evaluation.
 License: GPL-3
 Encoding: UTF-8
 LazyData: true

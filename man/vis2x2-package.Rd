@@ -6,7 +6,7 @@
 \alias{vis2x2-package}
 \title{vis2x2: Visualisation of Two by Two Tables for Diagnostic Test Evaluation}
 \description{
-What the package does (one paragraph).
+Visualizations of two by two tables for diagnostic test evaluation.
 }
 \author{
 \strong{Maintainer}: Matt Denwood \email{md@sund.ku.dk}
