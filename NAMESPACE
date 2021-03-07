@@ -2,5 +2,6 @@
 
 export(launch_shiny)
 export(squares2x2)
+export(waffell2x2)
 import(tidyverse)
 importFrom(shiny,runApp)
