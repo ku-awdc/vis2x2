@@ -4,14 +4,10 @@
 \alias{waffell2x2}
 \title{Visualize a 2x2 matrix with waffell}
 \usage{
-waffell2x2(
-  matrix,
-  n = 1000,
-  colors = c("#74ADD1", "#D73027", "#D73027", "#74ADD1")
-)
+waffell2x2(x, n = 1000, colors = c("#74ADD1", "#D73027", "#D73027", "#74ADD1"))
 }
 \arguments{
-\item{matrix}{The 2x2 matrix to visualize}
+\item{x}{A named vector to visualize}
 
 \item{colors}{Colors to use}
 

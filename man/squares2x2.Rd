@@ -4,19 +4,14 @@
 \alias{squares2x2}
 \title{Visualize a 2x2 matrix}
 \usage{
-squares2x2(
-  matrix,
-  labels = NULL,
-  colors = c("#74ADD1", "#D73027", "#D73027", "#74ADD1"),
-  labels_size = 4
-)
+squares2x2(x, labels = NULL, colors = "white", labels_size = 4)
 }
 \arguments{
-\item{matrix}{The 2x2 matrix to visualize}
+\item{x}{A named vector to visualize}
 
-\item{labels}{The labels to display}
+\item{labels}{The labels to display clockwise from topleft}
 
-\item{colors}{Colors to use}
+\item{colors}{Colors to use from topleft}
 
 \item{labels_size}{Size of the labels}
 }
