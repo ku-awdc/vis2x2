@@ -10,7 +10,8 @@
 #'
 #' @export
 #'
-squares2x2 <- function(matrix,
+
+squares2x2 <- function(data,
 											 labels = NULL,
 											 colors = c("#74ADD1", "#D73027", "#D73027", "#74ADD1"),
 											 labels_size = 4) {
@@ -26,7 +27,7 @@ squares2x2 <- function(matrix,
 												dimnames(m)[[1]][2],
 												dimnames(m)[[2]][1],
 												dimnames(m)[[2]][2]))
-	ggplot() +
+	ggplot2::ggplot() +
 		theme_void() +
 		scale_x_continuous(name = "x") +
 		scale_y_continuous(name = "y") +
@@ -51,7 +52,7 @@ squares2x2 <- function(matrix,
 #'
 #' @export
 #'
-waffell2x2 <- function(matrix,
+waffell2x2 <- function(data,
 											 n = 1000,
 											 colors = c("#74ADD1", "#D73027", "#D73027", "#74ADD1")) {
 
@@ -67,7 +68,7 @@ waffell2x2 <- function(matrix,
 	n <- ceiling(p[1, 1]*1000)
 	dta.p = data.frame(x = g$x, y = g$y) %>%
 		mutate(value = ifelse((x <= c & y < c) | (x %in% c:((c^2-n)+1) & y == c), "Y", "N"))
-	p11 <- ggplot(dta.p, aes(x, y, fill = value)) +
+	p11 <- ggplot2::ggplot(dta.p, aes(x, y, fill = value)) +
 		geom_tile(color = "white", size = 1) +
 		coord_fixed(expand = FALSE, clip = "off") +
 		scale_x_continuous(name = NULL, breaks = NULL) +
